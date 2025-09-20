@@ -1,0 +1,66 @@
+.website_color{
+    background-color: rgb(255, 255, 255);
+}
+
+.website_title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 75px;
+    background-color: rgb(172, 137, 104);
+    border-style: solid;
+}
+.website_firstimage{
+   text-align: center;
+   border-style: solid;
+}
+a{
+    text-decoration:underline;
+    color: black;
+}
+.about_button{
+    float: right;
+    font-size: large;
+}
+.home_button{
+    float: right;
+    font-size: large;
+}
+.splitview {
+  display: flex;
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Space between text and image */
+  margin-top: 20px;
+}
+.first_text{
+  font-size: large;
+}
+.second_text{
+ font-size: large;
+ flex: 1; 
+ max-width: 600px; 
+}
+.website_thirdimage img {
+   width: 800px;
+  height: auto;   
+  border-radius: 8px; 
+}
+.salutations{
+  font-size: large;
+  text-align: center;
+}
+.logo{
+  width: 800px;
+  height: auto;   
+  border-radius: 8px; 
+}
+.name{
+  text-align: center;
+}
+.first_rectangle{
+  background-color: rgb(172, 137, 104);
+    width: 1335px;        
+    height: 250px;       
+    background-image: url("image5.jpg");
+    background-position: right; 
+    border: 2px solid black; 
+}
